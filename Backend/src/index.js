@@ -13,5 +13,8 @@ app.use("/api/auth" , authRoutes);
 
 app.listen(PORT , () => {
     console.log("server is running on port : " + PORT );
-    connectDB();
+    connectDB();                                                      // ---> 27/02/2025
+
+    //the mongoDB is not connect and check with locally and as will as in atles 
+    // also once again check the installation of mongodb and compass locally 
 })
